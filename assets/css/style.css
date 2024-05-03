@@ -555,6 +555,87 @@ body {
     }
 }
 
+#prayer-panel {
+    color: var(--color-level3);
+    background-image: url(../images/wallpaper/wallpaper-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 68px;
+    padding-bottom: 68px;
+
+    .title-subtitle {
+        max-width: 100%;
+        border-radius: 0px 0px 30px 30px;
+        background-color: #00000081;
+        text-align: center;
+    }
+
+    .title {
+        font-size: 25px;
+        font-weight: normal;
+    }
+
+    .subtitle {
+        margin-top: -25px;
+        font-size: 50px;
+        font-weight: 400;
+    }
+
+    .update {
+        display: inline;
+        background-color: #2bff0033;
+        border-radius: 10px;
+        padding: 5px;
+        font-size: 10px;
+    }
+
+    .update i {
+        margin-right: 5px;
+    }
+
+    .title, .subtitle {
+        text-shadow: 1px 1px 10px #000;
+    }
+
+    .requests {
+        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+
+        .card-prayer-request {
+            border-radius: 10px;
+            background-color: #00000081;
+            font-size: 13px;
+            padding: 10px;
+            flex-basis: 300px;
+            flex-grow: 1;
+
+            p {
+                padding: 5px;
+            }
+
+            span {
+                font-weight: bold;
+                text-decoration: underline;
+            }
+
+            .name {
+                font-size: 20px;
+                color: #fec564;
+            }
+
+            .prayer-request {
+                background-color: #00000081;
+                padding: 10px;
+                margin: 5px;
+                border-radius: 10px;
+            }
+        }
+    }
+}
+
 /* section contribute */
 
 #contribuir {
