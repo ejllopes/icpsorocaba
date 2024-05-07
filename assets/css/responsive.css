@@ -740,9 +740,3 @@
         width: 200px;
     }
 }
-
-@media (max-height: 820px) {
-    #pedido-de-oracao {
-        height: auto;
-    }
-}
