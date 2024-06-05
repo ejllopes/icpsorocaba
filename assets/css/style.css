@@ -181,18 +181,6 @@ body {
         font-weight: 400;
     }
 
-    .update {
-        display: inline;
-        background-color: #2bff0033;
-        border-radius: 10px;
-        padding: 5px;
-        font-size: 10px;
-    }
-
-    .update i {
-        margin-right: 5px;
-    }
-
     .title, .subtitle {
         text-shadow: 1px 1px 10px #000;
     }
